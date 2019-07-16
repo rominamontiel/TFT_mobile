@@ -4,11 +4,15 @@
 body{
     margin: 0;
 }
-
+.inputs{
+    position: absolute;
+    display: none;
+}
 .contenedor{
-    background: antiquewhite;
+    background: #2d3e50;
     width: 100vw;
     height: 100vh;
+    padding: .5rem;
 }
 
 .grilla {
@@ -40,4 +44,15 @@ body{
 
 .obj-result,.obj-fila{
     overflow: scroll;
+}
+input{
+    position: absolute;
+    display: none;
+}
+#c1:checked .R1-1{
+    opacity: 0.1;
+}
+
+.R1-1{
+    opacity: 0.5;
 }
