@@ -49,10 +49,35 @@ input{
     position: absolute;
     display: none;
 }
-#c1:checked .R1-1{
+#c1:checked ~ .R1-1{
     opacity: 0.1;
 }
+#c1:checked ~ .R2-1{
+    opacity: 0.1;
+}
+/* ---------------- */
 
-.R1-1{
-    opacity: 0.5;
+#f1:checked ~ .R1-1{
+    opacity: 0.1;
+}
+#f1:checked ~ .R1-2{
+    opacity: 0.1;
+}
+#f1:checked ~ .R1-3{
+    opacity: 0.1;
+}
+#f1:checked ~ .R1-4{
+    opacity: 0.1;
+}
+#f1:checked ~ .R1-5{
+    opacity: 0.1;
+}
+#f1:checked ~ .R1-6{
+    opacity: 0.1;
+}
+#f1:checked ~ .R1-7{
+    opacity: 0.1;
+}
+#f1:checked ~ .R1-8{
+    opacity: 0.1;
 }
